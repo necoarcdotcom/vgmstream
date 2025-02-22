@@ -7,7 +7,7 @@
 #include "../util/cri_keys.h"
 
 #ifdef VGM_DEBUG_OUTPUT
-  //#define HCA_BRUTEFORCE
+  #define HCA_BRUTEFORCE
   #ifdef HCA_BRUTEFORCE
     #include "hca_bf.h"
   #endif
